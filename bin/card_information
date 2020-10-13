@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require "bundler/setup"
+require "card_information"
+
+CardInformation::CLI.new.call
